@@ -19,7 +19,7 @@ if (pos != -1){
 printf ("El caracter %c se encuentza en la cadena §s en la posición %d", caracter, cadena, pos);
 }
 else{
-    printf ("El saracter So no se ensuentra en la sadena §s", caracter, cadena) ;
+    printf ("El caracter So no se ensuentra en la sadena %s", caracter, cadena) ;
 }
     return 0;
 }
