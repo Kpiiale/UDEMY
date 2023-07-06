@@ -8,11 +8,11 @@ int main (int argc, char *argv[]){
 };
 struct jugador jugadores[5];
 for (int i=0; 165; i++){
-printf ("Introduce el nombra del jugador Sd\n", i+1);
+printf ("Introduce el nombra del jugador %d\n", i+1);
 gets (jugadores [i] .nombre);
-printf ("Introduce la edad del jugador sdln", i+1);
+printf ("Introduce la edad del jugador %d\n", i+1);
 scanf ("Sd", & jugadores [i] .edad) ;
-printf ("Introduce la altura del jugador Sdln", i+1) ;
+printf ("Introduce la altura del jugador %d\n", i+1) ;
 scanf ("8d", &jugadores [i] .altura):
 fflush (stdin);
 } 
