@@ -3,8 +3,8 @@
 int main (int argc, char *argv[]) {
 int preciobase, kilometros;
 float consumo, preciofinal;
-printf ("Introduce el precio base del vehiculon");  
-scanf ("d", &preciobase); 
+printf ("Introduce el precio base del vehiculo\n");  
+scanf ("%d", &preciobase); 
 printf ("Introduce loa kilometros"); 
 scanf ("%d", kilometros); 
 printf ("Introduce el consumo:"); 
