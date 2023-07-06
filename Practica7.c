@@ -3,7 +3,7 @@
 int main (int argc, char *argv[]) {
     int dia;
 printf ("Introduce un número en el rango 1-7");
-scanf ("&d",&dia); 
+scanf ("%d",&dia); 
 switch (dia) {
 case (1):
     printf ("Lunes"); 
