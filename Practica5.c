@@ -3,7 +3,7 @@
 int main (int argc, char *argv[]) {
 int nota; 
 printf ("Introduce la nota del alumno\n");
-scanf ("Sd", &nota) ;
+scanf ("%d", &nota) ;
 if (nota<5){
  printf ("Suspenso");   
 }
