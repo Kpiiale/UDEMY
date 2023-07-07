@@ -4,7 +4,7 @@ int main (int argc, char *argv[]) {
     int suma=0, contador=0, numero=-1; 
 while (numero != 0) {
 printf ("Introduce un numero \n");
-scanf ("&d", &numero);
+scanf ("%d", &numero);
 contador++;
 suma+= numero; 
 } 
